@@ -1,41 +1,63 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📘 NextJournal – Next.js Practical Assignment
 
-## Getting Started
+This project is a journal-style content page built using Next.js App Router as part of a practical technical assignment.
 
-First, run the development server:
+It simulates a real-world public content platform where journal articles are loaded dynamically from public APIs and rendered with SEO, performance, and error handling considerations.
 
-```bash
+🚀 Features
+
+Dynamic journal detail pages (/journal/[id])
+
+Real API integration using DummyJSON & JSONPlaceholder
+
+Sidebar navigation with scroll interaction
+
+SEO optimized pages with dynamic metadata
+
+Loading and error states
+
+Server & Client Components usage
+
+ISR (Incremental Static Regeneration)
+
+🛠 Tech Stack
+
+Next.js 14 (App Router)
+
+React
+
+DummyJSON API
+
+JSONPlaceholder API
+
+▶️ How to Run Locally
+git clone https://github.com/Souvik9775/JournalApp.git
+cd JournalApp
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open in browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000/journal/1
 
-## Learn More
+📂 Project Structure
+app/journal/[id]/     → Dynamic journal page
+components/          → UI components
+lib/                 → API fetch logic
+docs/                → Explanation markdown files
 
-To learn more about Next.js, take a look at the following resources:
+📝 Documentation
+File	Description
+docs/decisions.md	Technical decisions
+docs/tradeoffs.md	Shortcuts & limitations
+docs/future.md	Future improvements
+📌 Notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project focuses on architecture, SEO, performance optimization, and error handling rather than UI design.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👤 Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# JournalApp
-JournalApp using Next.js
->>>>>>> 991afc577e29832e0fcf5fa9b7eb951007903b03
+Souvik Pal
+B.Tech CSE – Chitkara University
+MERN Stack Developer
